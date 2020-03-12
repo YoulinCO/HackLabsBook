@@ -9,7 +9,7 @@
 - nmap -p 80 --script=http-backup-finder --script-args http-backup-finder.url=/web-serveur/ch11/index.php challenge01.root-me.org
 
 ## HASH
-Hash-identifier [enter] luego se ingresa el hash que queremos investigar
+ {Kali Linux} Hash-identifier [enter] luego se ingresa el hash que queremos investigar
 
 ## Comandos básicos Hack Linux
 

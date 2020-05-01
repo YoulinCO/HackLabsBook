@@ -10,6 +10,9 @@
 
 ## HASH
  {Kali Linux} Hash-identifier [enter] luego se ingresa el hash que queremos investigar
+ 
+ ## Enumeración sitios web
+ {Kali Linux} gobuster dir -u http://10.10.10.171 -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt [enter] luego se muestran los directorios que existen en el sitio web a partir de la búsqueda de diccionario.
 
 ## Comandos básicos Hack Linux
 

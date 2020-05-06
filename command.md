@@ -12,7 +12,12 @@
  {Kali Linux} Hash-identifier [enter] luego se ingresa el hash que queremos investigar
  
  ## Enumeración sitios web
+ **GoBuster**
  {Kali Linux} gobuster dir -u http://10.10.10.171 -w /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt [enter] luego se muestran los directorios que existen en el sitio web a partir de la búsqueda de diccionario.
+ 
+ **Nikto**
+ {Kali Linux} nikto -h 192.168. 0.70 -p 80 >> Permite escanear vulnerabilidades en un sitio web -h Corresponde a la ip o nombre de host -p Corresponde al puerto donde está expuesto el sitio web
+ 
 
 ## Comandos básicos Hack Linux
 

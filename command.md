@@ -17,7 +17,11 @@
  
  **Nikto**
  {Kali Linux} nikto -h 192.168. 0.70 -p 80 >> Permite escanear vulnerabilidades en un sitio web -h Corresponde a la ip o nombre de host -p Corresponde al puerto donde está expuesto el sitio web
- 
+
+## Tunneling
+
+**Tunel mediante OpenSSH**
+{Kali Linux} ssh -L 443:127.0.0.1:443 10.10.10.184 >> ssh -L <puerto-local-escucha>:<host-remoto>:<puerto-remoto> <servidor-ssh>
 
 ## Comandos básicos Hack Linux
 

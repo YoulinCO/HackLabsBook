@@ -24,7 +24,7 @@
 ## Tunneling
 
 **Tunel mediante OpenSSH**
-{Kali Linux} ssh -L 443:127.0.0.1:443 10.10.10.184 >> ssh -L <puerto-local-escucha>:<host-remoto>:<puerto-remoto> <servidor-ssh>
+{Kali Linux} ssh -L 443:127.0.0.1:443 user@10.10.10.184 >> ssh -L <puerto-local-escucha>:<host-remoto>:<puerto-remoto> <servidor-ssh>
 
 
 ## Comandos básicos Hack Linux
